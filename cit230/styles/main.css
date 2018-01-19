@@ -7,17 +7,17 @@
 body { 
     font-size: 16px; 
     line-height: 32px;
-    font-family: /* Ubuntu, sans-serif */;
-    color: /* #xxxxxx */;
+    font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
+    color: mediumblue;
 }
 
 h1 {
-    font-size: /* x.xrem  (rem is a unit of measure) */;
-    color: /* #xxxxxx */;
+    font-size: 4em;
+    color: gray;
 }
 
 h2 {
-    font-size: 2em;
+    font-size: 3em;
     text-align: center;
     border-bottom: 1px solid #bbb;
 }
@@ -41,5 +41,5 @@ header img {
 }
 
 footer {
-    font-size: .5em;
+    font-size: 1em;
 }
