@@ -102,15 +102,14 @@ h3 {
     font-family: 'cooper black', 'serif';
     font-size: 2em;
     color: #F5FD33;
+    float: center;
 }
 
 article {
     border: 5px solid #F5FD33;
     margin: 2em;
 }
-.town-article{
-    width: 37em;
-}
+
 article p.town-article img {  /* This structure refers to img elements that are the posterity of paragraph elements within artcle elements */
   width: 37em;/* fill the page in the small/phone view */
   margin: auto;
@@ -118,9 +117,15 @@ article p.town-article img {  /* This structure refers to img elements that are 
 }
 
 footer {
+    background-color: #034764;
+    color: #48DF00;
+    align-content: center;
     
 }
 footer aside {
+    align-content: center;
+    background-color: #F3FD00;
+    color:#034764; 
     
 }
 footer>p {
