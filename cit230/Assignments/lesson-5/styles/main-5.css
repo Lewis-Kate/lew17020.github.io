@@ -32,15 +32,16 @@ header img {
     float: left;
 }
 header .subheading {
-    float: right; 
+    float: center; 
     margin-top: 2em;
+    font-family: 'cooper black', 'serif'; 
 }
 
 nav {
     display: inline;
     background-color: #0777A7; 
     border: 2px solid #F5FD33; 
-    margin-top: 4em;
+    margin-top: 6em;
     
 }
 nav button {
