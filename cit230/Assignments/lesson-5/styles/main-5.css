@@ -19,7 +19,7 @@ header, nav, main, footer {
   /* Declare the maximum width and other main element rules to limit the stretch on wide views */
 }
 
-header {
+.header {
     background-color: #F8FE5F;
    
     
