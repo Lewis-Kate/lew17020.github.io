@@ -36,6 +36,7 @@ header img {
 }
 
 header .subheading {
+    position: relative;
     font-family: 'cooper black', 'serif';
     color: #F5FD33;
     font-size: 4em;
