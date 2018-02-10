@@ -50,13 +50,16 @@ nav button {
     
 }
 nav ul {
-    display: inline;
-    
+       
 }
 nav ul li {
+    float: left;
     
 }
 nav ul li a {
+    display: block;
+    padding: 8px;
+    background-color: #0777A7; 
     
 }
 nav ul li.active a {
