@@ -21,11 +21,12 @@ header, nav, main, footer {
 
 header {
    }
+
 header h1 {
-   float: center;
+    float: center;
     font-family: 'Brush Script MT', cursive;
     font-size: 12em;
-    margin-top: 20px;
+    margin-top: 0px;
     margin-left: 40px;
     color: #4C9ABC;
 }
