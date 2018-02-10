@@ -39,12 +39,12 @@ header img {
 
 header .subheading {
     position: relative;
+    top: 10px;
+    left: 40px;
     font-family: 'cooper black', 'serif';
     color: #F5FD33;
     font-size: 4em;
-    margin-left: 40px;
-    margin-top: 10px;
-}
+   }
 
 nav {
     width: 100%;
