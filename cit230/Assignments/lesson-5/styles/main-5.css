@@ -43,7 +43,7 @@ header .subheading {
 
 nav {
     display: inline;
-    margin-top: 200px;
+    margin-top: 500px;
     width: 100%;
     
 }
@@ -106,6 +106,7 @@ h3 {
 article p.town-article img {  /* This structure refers to img elements that are the posterity of paragraph elements within artcle elements */
   width: 37em; /* fill the page in the small/phone view */
   margin: auto;
+  float: right;
 }
 
 footer {
