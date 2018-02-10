@@ -22,7 +22,9 @@ header, nav, main, footer {
 header {
    }
 header h1 {
-    float: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     font-family: 'Brush Script MT', cursive;
     font-size: 12em;
     margin-top: 20px;
@@ -30,12 +32,13 @@ header h1 {
     color: #4C9ABC;
 }
 header img {
-    float: left;
+    display: flex;
+    flex-direction: column;
     margin: 2em;
 }
 header .subheading {
     float: center; 
-    margin-top: -30px;
+   
     font-family: 'cooper black', 'serif';
     color: #4C9ABC;
     font-size: 4em;
