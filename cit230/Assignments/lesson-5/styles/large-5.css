@@ -16,4 +16,8 @@
         float: left;
     }
     
+    .forecast {
+    display: inline-table;   
+    }
+
 }
