@@ -36,11 +36,11 @@ header img {
 }
 
 header .subheading {
-    float: center;  
     font-family: 'cooper black', 'serif';
     color: #4C9ABC;
     font-size: 4em;
     margin-left: 40px;
+    margin-top: 20px;
 }
 
 nav {
