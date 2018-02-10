@@ -36,7 +36,7 @@ header img {
 }
 header .subheading {
     float: center; 
-    margin-top: 10px;
+    margin-top: -10px;
     font-family: 'cooper black', 'serif';
     color: #4C9ABC;
     font-size: 4em;
@@ -115,7 +115,7 @@ article {
 
 article p.town-article img {  /* This structure refers to img elements that are the posterity of paragraph elements within artcle elements */
   width: 37em;/* fill the page in the small/phone view */
-  margin: 30px;
+  margin: -30px;
   float: right;
  }
 
