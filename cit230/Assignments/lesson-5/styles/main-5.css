@@ -6,10 +6,14 @@
 
 body {
   font-size: 16px;
+  font-family: 'Lato', sans-serif;
   /* Declare the base font-family - from google font api or other */
 }
 
-header, nav, main, footer { /* the comma means apply the following CSS declarations to all of the listed elements */
+header, nav, main, footer { 
+    max-width: 100%;
+    
+    /* the comma means apply the following CSS declarations to all of the listed elements */
   /* Declare the maximum width and other main element rules to limit the stretch on wide views */
 }
 
@@ -27,6 +31,7 @@ header .subheading {
 }
 
 nav {
+    display: inline;
     
 }
 nav button {
@@ -66,7 +71,7 @@ section {
 }
 
 .forecast {
-    display: none;
+ display: none;   
 }
 
 article p.town-article img {  /* This structure refers to img elements that are the posterity of paragraph elements within artcle elements */
