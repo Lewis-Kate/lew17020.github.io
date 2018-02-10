@@ -51,6 +51,7 @@ nav button {
     
 }
 nav ul {
+    width: 100%;
        
 }
 nav ul li {
@@ -108,22 +109,23 @@ h3 {
 article {
     border: 5px solid #F5FD33;
     margin: 2em;
+    width: 75%;
 }
 
 article p.town-article img {  /* This structure refers to img elements that are the posterity of paragraph elements within artcle elements */
   width: 37em;/* fill the page in the small/phone view */
-  margin: auto;
+  margin: 2px;
   float: right;
 }
 
-footer {
+.footer-bar {
     background-color: #034764;
     color: #48DF00;
-    align-content: center;
+   float: center;
     
 }
 footer aside {
-    align-content: center;
+    float: center;
     background-color: #F3FD00;
     color:#034764; 
     
