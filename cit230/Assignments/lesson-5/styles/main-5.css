@@ -58,8 +58,8 @@ nav button {
 }
 nav ul {
     list-style: none;
-    margin: 0 auto;
-    padding: 0;
+    margin: 20px;
+    padding: 10px;
        
 }
 nav ul li {
