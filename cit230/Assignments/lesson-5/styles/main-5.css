@@ -23,7 +23,7 @@ header {
     
 }
 header h1 {
-    float: right;
+    float: center;
     font-family: 'Harlow Solid Italic', 'cursive';
     font-size: 6em;
     margin-top: 0em;
