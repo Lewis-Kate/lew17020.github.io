@@ -21,13 +21,14 @@ header {
     
 }
 header h1 {
+    float: right;
     
 }
 header img {
-    
+    float: left;
 }
 header .subheading {
-    
+    float: right;    
 }
 
 nav {
