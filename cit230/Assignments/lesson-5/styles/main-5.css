@@ -26,6 +26,7 @@ header h1 {
     float: right;
     font-family: 'Harlow Solid Italic', 'cursive';
     font-size: 6em;
+    margin-top: 0px;
 }
 header img {
     float: left;
