@@ -35,14 +35,16 @@ header img {
 }
 header .subheading {
     float: center; 
-    margin-top: 100px;
+    margin-top: 40px;
     font-family: 'cooper black', 'serif';
     color: #4C9ABC;
+    font-size: 4em;
 }
 
 nav {
     display: inline;
     margin-top: 200px;
+    width: 100%;
     
 }
 nav button {
@@ -59,12 +61,14 @@ nav ul li a {
     display: block;
     padding: 8px;
     background-color: #0777A7; 
+    color: #F5FD33;
     
 }
 nav ul li.active a {
-    
+    background-color: #67E12D;
 }
 nav ul li a:hover {
+    color: #67E12D;
     
 }
 
