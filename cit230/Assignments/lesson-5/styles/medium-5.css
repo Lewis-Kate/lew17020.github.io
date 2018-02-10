@@ -6,7 +6,7 @@
     }  /* hamburger button does not need to be shown */
   
   section.forecast { 
-      display: ???; 
+      display: inline-grid; 
     }  /* show the 10-day forecast with the medium view and up */
   
   article p.town-article img { 
