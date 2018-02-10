@@ -136,15 +136,12 @@ article p.town-article img {  /* This structure refers to img elements that are 
 .footer-bar, #currentdate {
     background-color: #034764;
     color: #48DF00;
-   float: center;
-    
+      
 }
 footer aside {
-    float: center;
-    background-color: #F3FD00;
+      background-color: #F3FD00;
     color:#034764; 
-    
-}
+  }
 footer>p {
     
 } /* This structure refers to p elements that are direct children of the footer element */
