@@ -32,13 +32,12 @@ header h1 {
     color: #4C9ABC;
 }
 header img {
-    display: flex;
-    flex-direction: column;
     margin: 2em;
 }
+
 header .subheading {
-    float: center; 
-   
+    display: flex;
+    flex-direction: column   
     font-family: 'cooper black', 'serif';
     color: #4C9ABC;
     font-size: 4em;
