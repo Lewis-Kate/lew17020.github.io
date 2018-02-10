@@ -109,6 +109,7 @@ h3 {
 article {
     border: 5px solid #F5FD33;
     margin: 2em;
+    padding: 0em;
     width: 75%;
 }
 
@@ -118,7 +119,7 @@ article p.town-article img {  /* This structure refers to img elements that are 
   float: right;
 }
 
-.footer-bar {
+.footer-bar #currentdate {
     background-color: #034764;
     color: #48DF00;
    float: center;
