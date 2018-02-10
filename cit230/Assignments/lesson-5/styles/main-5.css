@@ -20,7 +20,7 @@ header, nav, main, footer {
 }
 
 .header {
-    background-color: #F8FE5F;
+   color: #F8FE5F;
    
     
 }
@@ -126,7 +126,9 @@ article {
 article p.town-article img {  /* This structure refers to img elements that are the posterity of paragraph elements within artcle elements */
   width: 37em;/* fill the page in the small/phone view */
   margin: -30px;
-  margin-left: 20px;
+  margin-left: 40px;
+  margin-bottom: 20px;
+  margin-right: 20px;
   float: right;
  }
 
