@@ -36,14 +36,15 @@ header .subheading {
 
 nav {
     display: inline;
-    background-color: #F5FD33; 
-    border: 2px solid blue; 
+    background-color: #0777A7; 
+    border: 2px solid #F5FD33; 
     
 }
 nav button {
     
 }
 nav ul {
+    display: inline;
     
 }
 nav ul li {
