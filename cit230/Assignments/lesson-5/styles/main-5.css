@@ -6,7 +6,7 @@
 }  /* This wildcard applies to all elements ensuring a box layout model */
 
 body {
-  font-size: 4em;
+  font-size: 12px;
   font-family: 'Lato', sans-serif;
  
   /* Declare the base font-family - from google font api or other */
@@ -25,7 +25,7 @@ header {
 header h1 {
     float: right;
     font-family: 'Harlow Solid Italic', 'cursive';
-    font-size: 13px;
+    font-size: 3em;
 }
 header img {
     float: left;
@@ -63,7 +63,7 @@ main {
 }
 main h2 {
     font-family: 'cooper black', 'serif';
-    font-size: 3em;
+    font-size: 1em;
     
 }
 main figure { 
@@ -83,7 +83,7 @@ section {
 
 h3 {
     font-family: 'cooper black', 'serif';
-    font-size: 2em;
+    font-size: .5em;
 }
 article p.town-article img {  /* This structure refers to img elements that are the posterity of paragraph elements within artcle elements */
   width: 37em; /* fill the page in the small/phone view */
