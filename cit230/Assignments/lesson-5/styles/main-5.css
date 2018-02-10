@@ -19,15 +19,12 @@ header, nav, main, footer {
   /* Declare the maximum width and other main element rules to limit the stretch on wide views */
 }
 
-.header {
-   color: #F8FE5F;
-   
-    
-}
+header {
+   }
 header h1 {
     float: center;
     font-family: 'Brush Script MT', cursive;
-    font-size: 8em;
+    font-size: 12em;
     margin-top: 20px;
     margin-left: 40px;
     color: #4C9ABC;
@@ -38,7 +35,7 @@ header img {
 }
 header .subheading {
     float: center; 
-    margin-top: -10px;
+    margin-top: -30px;
     font-family: 'cooper black', 'serif';
     color: #4C9ABC;
     font-size: 4em;
