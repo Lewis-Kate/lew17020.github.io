@@ -26,24 +26,23 @@ header h1 {
     float: center;
     font-family: 'Marck Script', cursive;
     font-size: 6em;
-    margin-top: 0em;
+    margin-top: 0px;
     color: #4C9ABC;
 }
 header img {
     float: left;
+    margin: 2em;
 }
 header .subheading {
     float: center; 
-    margin-top: 1em;
+    margin-top: 100px;
     font-family: 'cooper black', 'serif';
     color: #4C9ABC;
 }
 
 nav {
     display: inline;
-    background-color: #0777A7; 
-    border: 2px solid #F5FD33; 
-    margin-top: 6em;
+    margin-top: 200px;
     
 }
 nav button {
