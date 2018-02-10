@@ -5,7 +5,7 @@
 }  /* This wildcard applies to all elements ensuring a box layout model */
 
 body {
-  font-size: 16px;
+  font-size: 4em;
   font-family: 'Lato', sans-serif;
   /* Declare the base font-family - from google font api or other */
 }
@@ -60,7 +60,7 @@ main {
 }
 main h2 {
     font-family: 'cooper black', 'serif';
-    font-size: 10px;
+    font-size: 3em;
     
 }
 main figure { 
@@ -80,7 +80,7 @@ section {
 
 h3 {
     font-family: 'cooper black', 'serif';
-    font-size: 10px;
+    font-size: 2em;
 }
 article p.town-article img {  /* This structure refers to img elements that are the posterity of paragraph elements within artcle elements */
   width: 37em; /* fill the page in the small/phone view */
