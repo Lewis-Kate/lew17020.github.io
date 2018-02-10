@@ -95,6 +95,20 @@ section {
     
 }
 
+.highlow{
+    float: center;
+    
+}
+
+.current{
+    float: left;
+
+}
+
+.conditions{
+    float: right;
+}
+
 .forecast {
  display: none;   
 }
@@ -114,8 +128,9 @@ article {
 
 article p.town-article img {  /* This structure refers to img elements that are the posterity of paragraph elements within artcle elements */
   width: 37em;/* fill the page in the small/phone view */
-  margin: 2px;
+  margin: 3px;
   float: right;
+  padding: 3px;
 }
 
 .footer-bar, #currentdate {
