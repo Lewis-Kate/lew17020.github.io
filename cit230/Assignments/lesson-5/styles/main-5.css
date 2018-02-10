@@ -37,6 +37,7 @@ header .subheading {
 nav {
     display: inline;
     background-color: #F5FD33; 
+    border: 2px solid blue; 
     
 }
 nav button {
