@@ -119,7 +119,7 @@ article p.town-article img {  /* This structure refers to img elements that are 
   float: right;
 }
 
-.footer-bar #currentdate {
+.footer-bar, #currentdate {
     background-color: #034764;
     color: #48DF00;
    float: center;
