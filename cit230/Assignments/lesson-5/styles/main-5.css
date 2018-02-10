@@ -22,7 +22,8 @@ header {
 }
 header h1 {
     float: right;
-    
+    font-family: 'Harlow Solid Italic', 'cursive';
+    font-size: 13px;
 }
 header img {
     float: left;
@@ -58,6 +59,8 @@ main {
     
 }
 main h2 {
+    font-family: 'cooper black', 'serif';
+    font-size: 10px;
     
 }
 main figure { 
@@ -75,6 +78,10 @@ section {
  display: none;   
 }
 
+h3 {
+    font-family: 'cooper black', 'serif';
+    font-size: 10px;
+}
 article p.town-article img {  /* This structure refers to img elements that are the posterity of paragraph elements within artcle elements */
   width: 37em; /* fill the page in the small/phone view */
   margin: auto;
