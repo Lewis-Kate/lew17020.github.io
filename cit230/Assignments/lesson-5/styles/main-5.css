@@ -25,7 +25,6 @@ header {
    }
 
 header h1 {
-    float: center;
     font-family: 'Brush Script MT', cursive;
     font-size: 10em;
     margin-top: 0px;
@@ -115,8 +114,7 @@ h3 {
     font-family: 'cooper black', 'serif';
     font-size: 2em;
     color: #F5FD33;
-    float: center;
-}
+    }
 
 article {
     margin: 2em;
