@@ -51,12 +51,14 @@ nav {
     max-width: 100%;
 	margin: 0 0 1em 0;
 	padding: 0;
+    background-color: :#034764;
     
 }
 nav button {
     
 }
 nav ul {
+    text-align: center;
     list-style: none;
     margin: 20px;
     padding: 10px;
