@@ -104,11 +104,14 @@ h3 {
     color: #F5FD33;
 }
 
+article {
+    border: 5px solid #F5FD33;
+}
 .town-article{
-    width: 50%;
+    width: 37em;
 }
 article p.town-article img {  /* This structure refers to img elements that are the posterity of paragraph elements within artcle elements */
-  width: 50%; /* fill the page in the small/phone view */
+  width: 37em;/* fill the page in the small/phone view */
   margin: auto;
 }
 
