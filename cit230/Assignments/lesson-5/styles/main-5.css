@@ -8,6 +8,7 @@
 body {
   font-size: 4em;
   font-family: 'Lato', sans-serif;
+ 
   /* Declare the base font-family - from google font api or other */
 }
 
@@ -35,6 +36,7 @@ header .subheading {
 
 nav {
     display: inline;
+    background-color: #F5FD33; 
     
 }
 nav button {
