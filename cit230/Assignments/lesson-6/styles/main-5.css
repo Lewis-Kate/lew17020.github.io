@@ -1,0 +1,149 @@
+/* This main css file contains the default rules and is geared toward the small/phone view */
+
+* { 
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    background-color: #48DF00;
+}  /* This wildcard applies to all elements ensuring a box layout model */
+
+body {
+  font-size: 14px;
+  font-family: 'Lato', sans-serif;
+ 
+  /* Declare the base font-family - from google font api or other */
+}
+
+header, nav, main, footer { 
+    max-width: 100%;
+    
+    /* the comma means apply the following CSS declarations to all of the listed elements */
+  /* Declare the maximum width and other main element rules to limit the stretch on wide views */
+}
+
+header {
+   }
+
+header h1 {
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 10em;
+    margin-top: 0px;
+    margin-left: 40px;
+    color: #4C9ABC;
+    max-width: 80%
+}
+header img {
+    float: left;
+    margin: 3em;
+    padding: 1em;
+}
+
+header .subheading {
+    position: relative;
+    top: -60px;
+    left: 40px;
+    font-family: 'cooper black', 'serif';
+    color: #F5FD33;
+    font-size: 4em;
+   }
+
+nav {
+    max-width: 100%;
+	margin: 0 0 1em 0;
+	padding: 0;
+    background-color: :#034764;
+    
+}
+nav button {
+    
+}
+nav ul {
+    text-align: center;
+    list-style: none;
+    margin: 20px;
+    padding: 10px;
+       
+}
+nav ul li {
+    display: inline-block;
+    list-style-type: none;
+    margin: 0;
+    padding: 40px 10px;    
+    
+}
+nav ul li a {
+    padding: 12px 10px;
+    text-decoration: none;
+    background-color: #0777A7; 
+    color: #F5FD33;
+    
+}
+nav ul li.active a {
+    background-color: #67E12D;
+}
+nav ul li a:hover {
+    color: #67E12D;
+    
+}
+
+main {
+    margin-top: 3em;
+    
+}
+main h2 {
+    font-family: 'cooper black', 'serif';
+    font-size: 3em;
+    color: #F5FD33;
+    
+}
+main figure { 
+    margin: 0 0 .2rem 2%; width:96%; 
+}
+main figure img { 
+    width: 100%; 
+}
+
+section {
+    text-align: center;
+}
+
+
+.forecast {
+ display: none;   
+}
+
+h3 {
+    font-family: 'cooper black', 'serif';
+    font-size: 2em;
+    color: #F5FD33;
+}
+
+article {
+    margin: 2em;
+    padding: 0em;
+    width: 75%;
+}
+
+article p.town-article img {  /* This structure refers to img elements that are the posterity of paragraph elements within artcle elements */
+  width: 37em;/* fill the page in the small/phone view */
+  margin: -30px;
+  margin-left: 40px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  float: right;
+ }
+
+.footer-bar, #currentdate {
+    background-color: #034764;
+    color: #48DF00;
+      
+}
+footer aside {
+      background-color: #F3FD00;
+    color:#034764; 
+  }
+footer>p {
+    
+} /* This structure refers to p elements that are direct children of the footer element */
+
+/* Other Class Selectors */
