@@ -8,7 +8,7 @@
   <meta name="author" content="Kaitlyn Lewis">
   <meta name="Franklin City Weather" content="weather info for franklin city">
   <!-- external style references in the proper cascading order -->    
-  <link href="https://fonts.googleapis.com/css?family=#" rel="stylesheet">  <!-- Google API font reference -->
+  <link href="https://fonts.googleapis.com/css?family=Berkshire+Swash|Nanum+Myeongjo" rel="stylesheet"> <!-- Google API font reference -->
   <link href="styles/normalize.css" rel="stylesheet"> <!-- normalize useragent/browser defaults -->
   <link href="styles/main-5.css" rel="stylesheet">    <!-- default styles - small/phone views -->
   <link href="styles/medium-5.css" rel="stylesheet">  <!-- medium/tablet views -->
@@ -37,7 +37,9 @@
     
   <main>
       <figure>
-      <img src="images/city.jpeg" alt="city-image" width="500" height="350"> 
+          <picture>
+            <img src="images/franklin-original.jpeg" srcset="images/franklin-large.jpeg 1x, images/franklin-medium.jpeg 2x, images/franklin-small.jpex 3x">
+          </picture>
     </figure>
     <h2>Franklin</h2>
     <section>
