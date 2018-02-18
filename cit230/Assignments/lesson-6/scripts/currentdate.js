@@ -17,8 +17,7 @@ function currentDate() {
         month[11] = "December";
       var year = currentDate.getFullYear();
     
-      var d = new Date();
-      var weekday = new Array(7);
+      var weekday = weekday.getDay();
         weekday[0] = "Sunday";
         weekday[1] = "Monday";
         weekday[2] = "Tuesday";
@@ -26,7 +25,7 @@ function currentDate() {
         weekday[4] = "Thursday";
         weekday[5] = "Friday";
         weekday[6] = "Saturday";
-      var n =([weekday.getDay] + " " + day + " " + [currentDate.getMonth()] + " " + year);
+      var n =(weekday()+ " " + day + " " + monht() + " " + year);
 
       document.getElementById("currentdate").innerHTML = n;
 }
