@@ -16,7 +16,7 @@ function currentDate() {
         month[10] = "November";
         month[11] = "December";
       var year = currentDate.getFullYear();
-      var n =(day + "<br>" + month + "<br>" + year);
+      var n =(day + " " + "month" + " " + year);
 
       document.getElementById("currentdate").innerHTML = n;
 }
