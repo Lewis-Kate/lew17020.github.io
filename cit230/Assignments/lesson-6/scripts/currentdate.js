@@ -25,7 +25,7 @@ function currentDate() {
         weekday[4] = "Thursday";
         weekday[5] = "Friday";
         weekday[6] = "Saturday";
-      var n =(weekday()+ " " + day + " " + monht() + " " + year);
+      var n = weekday()+ " " + day + " " + monht() + " " + year;
 
       document.getElementById("currentdate").innerHTML = n;
 }
