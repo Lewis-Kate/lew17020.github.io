@@ -1,10 +1,10 @@
 
 function currentDate() {
       var d = new Date();
-      var day = currentDate.getDate();
+      var day = d.getDate();
       var month = ["January", "February", "March", "April", "May", "June",
             "July", "August", "September", "October", "November", "December"];
-      var year = currentDate.getFullYear();
+      var year = d.getFullYear();
      
       var weekday = new Array(7);
         weekday[0] = "Sunday";
