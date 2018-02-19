@@ -26,11 +26,10 @@ header {
 
 header h1 {
     font-family: 'Berkshire Swash', cursive;
-    font-size: 10em;
-    margin-top: 0px;
-    margin-left: 40px;
-    color: #4C9ABC;
-    max-width: 80%
+    font-size: 8em;
+    padding: 2% 0 0 0;
+    color: #2C8900;
+    max-width: 80%;
 }
 header img {
     float: left;
@@ -95,7 +94,8 @@ main {
 main h2 {
     font-family: 'Nanum Myeongjo', serif;
     font-size: 3em;
-    color: #F5FD33;
+    color: #2C8900;
+    text-align: center;
     
 }
 main figure { 
@@ -127,22 +127,20 @@ article {
 }
 
 article p.town-article img {  /* This structure refers to img elements that are the posterity of paragraph elements within artcle elements */
-  width: 37em;/* fill the page in the small/phone view */
-  margin: -30px;
-  margin-left: 40px;
-  margin-bottom: 20px;
-  margin-right: 20px;
-  float: right;
+  max-width: 100%;/* fill the page in the small/phone view */
+  padding: 2%;
  }
 
 .footer-bar, #currentdate {
     background-color: #034764;
     color: #48DF00;
+    text-align: center;
       
 }
 footer aside {
       background-color: #F3FD00;
-    color:#034764; 
+    color:#034764;
+    text-align: center;
   }
 footer>p {
     
