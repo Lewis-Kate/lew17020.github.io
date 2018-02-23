@@ -9,9 +9,9 @@
   <!-- external style references in the proper cascading order -->    
   <link href="https://fonts.googleapis.com/css?family=Berkshire+Swash|Nanum+Myeongjo" rel="stylesheet"> <!-- Google API font reference -->
   <link href="styles/normalize.css" rel="stylesheet"> <!-- normalize useragent/browser defaults -->
-  <link href="styles/main-5.css" rel="stylesheet">    <!-- default styles - small/phone views -->
-  <link href="styles/medium-5.css" rel="stylesheet">  <!-- medium/tablet views -->
-  <link href="styles/large-5.css" rel="stylesheet">   <!-- large/wide/desktop views --> 
+  <link href="styles/main.css" rel="stylesheet">    <!-- default styles - small/phone views -->
+  <link href="styles/medium.css" rel="stylesheet">  <!-- medium/tablet views -->
+  <link href="styles/large.css" rel="stylesheet">   <!-- large/wide/desktop views --> 
 </head>
 <body>
 
@@ -34,6 +34,24 @@
     </ul>		
   </nav>
     
-    
+    <footer>
+    <aside>
+     Daily Forecast<br>
+     123 Main St.<br>
+     Franklin, MU 83454<br>
+     (999) 999-9999<br>
+     contact@dailyforecast.com
+    </aside>
+    <p class="footer-bar">&copy;2017 All Rights Reserved |Daily Forecast | <span id="currentdate">Current Date Placeholder</span></p>
+  </footer>
+
+  <script src="scripts/hamburger.js"></script>
+  <script src="scripts/currentdate.js"></script>
+  <script>currentDate()</script>
+  <script src="scripts/windchill.js"></script>
+  <script>doInputOutput()</script>
+  
+</body>
+</html>
 </body>
 </html>
