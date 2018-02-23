@@ -23,5 +23,14 @@
     .forecast {
     display: inline-table;   
     }
-
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 2em;
+    grid-row-gap: 2em;
+        
+}
+img:hover {
+        box-shadow: 20px 20px 30px #034764;
+    }
 }
