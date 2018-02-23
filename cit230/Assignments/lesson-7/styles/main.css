@@ -22,25 +22,23 @@ header, nav, main, footer {
 }
 
 header {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
    }
 
 header h1 {
     font-family: 'Berkshire Swash', cursive;
     font-size: 8em;
-    padding: 2% 0 0 0;
     color: #2C8900;
-    max-width: 80%;
 }
 header img {
-    float: left;
-    margin: 3em;
     padding: 1em;
-}
+    align-self: flex-start;
+    }
 
 header .subheading {
-    position: relative;
-    top: -60px;
-    left: 40px;
     font-family: 'Nanum Myeongjo', serif;
     color: #F5FD33;
     font-size: 4em;
@@ -67,7 +65,7 @@ nav ul li {
 }
 
 nav ul li a {
-    display: block;
+    display: flex;
     padding: .8rem 2%;
     text-decoration: none;
     background-color: #0777A7; 
@@ -88,6 +86,8 @@ nav ul.hide{
 }
 
 main {
+    display: flex;
+    flex-flow: column wrap;
     margin-top: 3em;
     
 }
@@ -95,14 +95,15 @@ main h2 {
     font-family: 'Nanum Myeongjo', serif;
     font-size: 3em;
     color: #2C8900;
+    justify-content: center;
     text-align: center;
     
 }
 main figure { 
     margin: 0 0 .2rem 2%; width:96%; 
 }
-main figure img { 
-    width: 100%; 
+main figure img {
+     width: 100%; 
 }
 
 section {
@@ -111,7 +112,29 @@ section {
 
 
 .forecast {
- display: none;   
+    display: flex;
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 2em;
+    justify-content: center;
+    align-items: stretch;
+    margin: 2em;
+    border: 5px solid #0777A7;
+    
+}
+#one, #two, #three, #four, #five, #six, #seven, #eight, #nine, #ten{
+    display: flex-inline;
+    flex-flow: row nowrap;
+    align-items: stretch;
+    padding: .7em;
+    
+}
+#tabletitle{
+    display: inline-flex;
+    justify-content: center;
+    align-content: center;
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 2em;
+    color: #2C8900;
 }
 
 h3 {
@@ -156,6 +179,6 @@ footer>p {
 .gallery {
     display: grid;
     grid-template-columns: 1fr;
-    grid-column-gap: 2em;
-    grid-row-gap: 2em;
+    grid-column-gap: 1em;
+    grid-row-gap: 1em;
 }
