@@ -153,3 +153,9 @@ footer>p {
 }/* This structure refers to p elements that are direct children of the footer element */
 
 /* Other Class Selectors */
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-column-gap: 2em;
+    grid-row-gap: 2em;
+}
