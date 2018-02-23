@@ -4,7 +4,7 @@ function doInputOutput() {
         var tempF = (high + low) / 2;
 		var speed = 5;
 		var wind = windChill(tempF, speed);
-		document.getElementById("outputDiv").innerHTML = wind.toFixed(2);
+		document.getElementById("outputDiv").innerHTML = "Wind Chill: " + wind.toFixed(2);
 		}
 		
 	function windChill(tempF, speed) {
