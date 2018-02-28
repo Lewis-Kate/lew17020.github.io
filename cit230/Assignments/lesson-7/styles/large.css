@@ -39,7 +39,7 @@
     }
     
     .forecast {
-    display: inline-table;   
+    text-align: left;   
     }
     
 .gallery {

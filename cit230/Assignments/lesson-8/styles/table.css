@@ -1,0 +1,43 @@
+html {
+  font-family: Ubuntu, sans-serif;
+}
+
+table {
+  border-collapse: collapse;
+  border: 2px solid rgb(200,200,200);
+  letter-spacing: 1px;
+  font-size: 0.8rem;
+}
+thead th{
+   background-color:  #7fb9c2;
+   font-weight: 1000;
+   font-size: 2em;
+}
+tfoot th{
+   background-color:  #7fb9c2;
+}
+td, th {
+  border: 1px solid rgb(190,190,190);
+  padding: 10px 20px;
+}
+
+th {
+
+}
+
+td {
+   text-align: center;
+}
+table tr:nth-child(even) {
+    background-color: #e7f0ed;
+}
+table tr:nth-child(odd) {
+   background-color:#e7ffed;
+}
+.blue{
+    background-color: #628ca6;
+    color: white;
+}
+#italic {
+    font-style: italic;
+}
