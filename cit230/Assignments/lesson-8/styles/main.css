@@ -220,12 +220,12 @@ input{
     border: #39AF00 solid .5em;
    }
 .submit {
-    background-color: #F8FE5F;
     font-family: 'Nanum Myeongjo', serif;
     color: #4C9ABC;
     font-weight: bold;
     border: #034764 solid .5em;
     border-radius: 1em;
+    background-color: #F8FE5F;
 }
 textarea, select{
     background-color: #F8FE5F;
@@ -233,7 +233,7 @@ textarea, select{
     font-weight: bold;
     font-size: 1.2em;
     border: #39AF00 solid .5em;
-     color: #67E12D;
+    color: #67E12D;
 }
 select option{
     background-color: #034764;
@@ -242,7 +242,9 @@ select option{
     background-color: #F8FE5F;
     font-family: 'Nanum Myeongjo', serif;
     font-weight: bold;
-    font-size: 1.2em;
+    font-size: 2em;
     color: #034764;
-    border: #4C9ABC solid 1em; 
+    border: #4C9ABC solid 1em;
+    text-align: center;
+    padding: 2em;
 }

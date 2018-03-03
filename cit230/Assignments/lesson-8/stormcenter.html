@@ -33,12 +33,12 @@
     	<li><a href="gallery-8.html">Gallery</a></li>
     </ul>		
   </nav>
-    <form action="/thanks.html" method="post" enctype="multipart/form-data" name="attend" id="stormcenter">
+    <form action="thanks.html" method="get" enctype="multipart/form-data" name="attend" id="stormcenter">
         <fieldset>
             <legend>Personal Information</legend>
-                <label><span>Full Name:<input type="text" name="fullname" pattern="[A-Za-z ]{5}" required></span></label>
+                <label><span>Full Name:<input type="text" name="fullname"  pattern="[A-z\s]{5,}" required></span></label>
                 <label><span>Email:<input name="email" type="email" placeholder="janedoe@gmail.com"></span></label>
-                <label><span>Telephone:<input name="phone" type="tel" pattern="[1234567890]{10}" required></span></label>
+                <label><span>Telephone:<input name="phone" type="tel" pattern="[0-9]{10,99}" required></span></label>
                 <label><span>Zipcode:<input name="zip" type="number" pattern="[11524]{5}" required></span></label>
         </fieldset>
         
@@ -77,4 +77,15 @@
         <label><span><input type="submit" value="Click to Submit" class="submit"></span></label>
     </form>
     </body>
+    
+     <footer>
+    <aside>
+     Daily Forecast<br>
+     123 Main St.<br>
+     Franklin, MU 83454<br>
+     (999) 999-9999<br>
+     contact@dailyforecast.com
+    </aside>
+    <p class="footer-bar">&copy;2017 All Rights Reserved |Daily Forecast | <span id="currentdate">Current Date Placeholder</span></p>
+  </footer>
 </html>
