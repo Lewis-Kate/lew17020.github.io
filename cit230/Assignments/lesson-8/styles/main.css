@@ -220,12 +220,13 @@ input{
     border: #39AF00 solid .5em;
    }
 .submit {
-    font-family: 'Nanum Myeongjo', serif;
-    color: #4C9ABC;
+    font-family: 'Berkshire Swash', cursive;
+    color: #034764;
     font-weight: bold;
     border: #034764 solid .5em;
     border-radius: 1em;
-    background-color: #F8FE5F;
+    background-color: #48DF00;
+    font-size: 2em;
 }
 textarea, select{
     background-color: #F8FE5F;
