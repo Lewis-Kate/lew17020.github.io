@@ -182,3 +182,67 @@ footer>p {
     grid-column-gap: 1em;
     grid-row-gap: 1em;
 }
+form#stormcenter {
+    padding: .8em;
+    font-family: 'Nanum Myeongjo', serif;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+fieldset {
+    border-radius: 2em;
+    background-color: #F8FE5F;
+    margin: 2em 0;
+    border: #F3FD00 solid .5em;
+}
+legend {
+    background-color: #034764;
+    color: #4C9ABC;
+    border-radius: .3em;
+    margin: 0 2em 0 0;
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 2em;
+    border: #4C9ABC solid .1em;
+    padding: .3em;
+}
+label{
+    display: block;
+}
+label span{
+    display: block;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    background-color: #F8FE5F;
+    color: #67E12D;
+}
+input{
+    display: block;
+    background-color: #F8FE5F;
+    border: #39AF00 solid .5em;
+   }
+.submit {
+    background-color: #F8FE5F;
+    font-family: 'Nanum Myeongjo', serif;
+    color: #4C9ABC;
+    font-weight: bold;
+    border: #034764 solid .5em;
+    border-radius: 1em;
+}
+textarea, select{
+    background-color: #F8FE5F;
+    font-family: 'Nanum Myeongjo', serif;
+    font-weight: bold;
+    font-size: 1.2em;
+    border: #39AF00 solid .5em;
+     color: #67E12D;
+}
+select option{
+    background-color: #034764;
+}
+.thanks {
+    background-color: #F8FE5F;
+    font-family: 'Nanum Myeongjo', serif;
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #034764;
+    border: #4C9ABC solid 1em; 
+}
