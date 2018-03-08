@@ -1,0 +1,252 @@
+/* This main css file contains the default rules and is geared toward the small/phone view */
+
+* { 
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    background-color: #48DF00;
+}  /* This wildcard applies to all elements ensuring a box layout model */
+
+body {
+  font-size: 14px;
+  font-family: 'Lato', sans-serif;
+ 
+  /* Declare the base font-family - from google font api or other */
+}
+
+header, nav, main, footer { 
+    max-width: 100%;
+    
+    /* the comma means apply the following CSS declarations to all of the listed elements */
+  /* Declare the maximum width and other main element rules to limit the stretch on wide views */
+}
+
+header {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+   }
+
+header h1 {
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 8em;
+    color: #2C8900;
+}
+header img {
+    padding: 1em;
+    align-self: flex-start;
+    }
+
+header .subheading {
+    font-family: 'Nanum Myeongjo', serif;
+    color: #F5FD33;
+    font-size: 4em;
+   }
+
+nav {
+    background-color: #034764;
+    
+}
+nav button {
+    margin: .2rem 2%;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+       
+}
+nav ul li {
+    
+}
+
+nav ul li a {
+    display: flex;
+    padding: .8rem 2%;
+    text-decoration: none;
+    background-color: #0777A7; 
+    color: #F5FD33;
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+nav ul li.active a {
+    background-color: #67E12D;
+}
+
+nav ul li a:hover {
+    color: #67E12D;
+}
+
+nav ul.hide{
+    display: none;
+}
+
+main {
+    display: flex;
+    flex-flow: column wrap;
+    margin-top: 3em;
+    
+}
+main h2 {
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 3em;
+    color: #2C8900;
+    justify-content: center;
+    text-align: center;
+    
+}
+main figure { 
+    margin: 0 0 .2rem 2%; width:96%; 
+}
+main figure img {
+     width: 100%; 
+}
+
+section {
+    text-align: center;
+}
+
+
+.forecast {
+    display: flex;
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 2em;
+    justify-content: center;
+    align-items: stretch;
+    margin: 2em;
+    border: 5px solid #0777A7;
+    
+}
+#one, #two, #three, #four, #five, #six, #seven, #eight, #nine, #ten{
+    display: flex-inline;
+    flex-flow: row nowrap;
+    align-items: stretch;
+    padding: .7em;
+    
+}
+#tabletitle{
+    display: inline-flex;
+    justify-content: center;
+    align-content: center;
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 2em;
+    color: #2C8900;
+}
+
+h3 {
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 2em;
+    color: #F5FD33;
+}
+
+article {
+    margin: 2em;
+    padding: 0em;
+    width: 75%;
+}
+
+article p.town-article img {  /* This structure refers to img elements that are the posterity of paragraph elements within artcle elements */
+  max-width: 100%;/* fill the page in the small/phone view */
+  padding: 2%;
+ }
+
+.footer-bar, #currentdate {
+    background-color: #034764;
+    color: #48DF00;
+    text-align: center;
+      
+}
+footer aside {
+    background-color: #F3FD00;
+    color:#034764;
+    text-align: center;
+  }
+footer>p {
+    
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}/* This structure refers to p elements that are direct children of the footer element */
+
+/* Other Class Selectors */
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-column-gap: 1em;
+    grid-row-gap: 1em;
+}
+form#stormcenter {
+    padding: .8em;
+    font-family: 'Nanum Myeongjo', serif;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+fieldset {
+    border-radius: 2em;
+    background-color: #F8FE5F;
+    margin: 2em 0;
+    border: #F3FD00 solid .5em;
+}
+legend {
+    background-color: #034764;
+    color: #4C9ABC;
+    border-radius: .3em;
+    margin: 0 2em 0 0;
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 2em;
+    border: #4C9ABC solid .1em;
+    padding: .3em;
+}
+label{
+    display: block;
+}
+label span{
+    display: block;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    background-color: #F8FE5F;
+    color: #67E12D;
+}
+input{
+    display: block;
+    background-color: #F8FE5F;
+    border: #39AF00 solid .5em;
+   }
+.submit {
+    font-family: 'Berkshire Swash', cursive;
+    color: #034764;
+    font-weight: bold;
+    border: #034764 solid .5em;
+    border-radius: 1em;
+    background-color: #48DF00;
+    font-size: 2em;
+}
+textarea, select{
+    background-color: #F8FE5F;
+    font-family: 'Nanum Myeongjo', serif;
+    font-weight: bold;
+    font-size: 1.2em;
+    border: #39AF00 solid .5em;
+    color: #67E12D;
+}
+
+select option{
+    background-color: #034764;
+}
+.thanks {
+    background-color: #F8FE5F;
+    font-family: 'Nanum Myeongjo', serif;
+    font-weight: bold;
+    font-size: 2em;
+    color: #034764;
+    border: #4C9ABC solid 1em;
+    text-align: center;
+    padding: 2em;
+}
