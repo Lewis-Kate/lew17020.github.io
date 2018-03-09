@@ -52,6 +52,40 @@
     grid-template-columns: 1fr 1fr;
     grid-column-gap: 1em;
     grid-row-gap: 1em;
+   }
+    
+    article.weather{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        margin: 2em;
+        width: 95%;
+    }
+    
+    article.weather h3{
+    align-self: flex-start;
+    padding: 1em;
+    border: .5em;
+    color: #2C8900;
+    font-size: 3em;
+    font-weight: 1000;
+    background-color: #034764;
+    }  
+    
+    article.weather p{
+        padding: 1em;
+        margin: 1em;
+        align-self: flex-start;
+    }
+   article.weather img {
+       margin-left: 4em;
+    }
+  
+    article.franklin{
+        display: flex;
+        flex-direction: row;
+    }
 }
-}
+
 

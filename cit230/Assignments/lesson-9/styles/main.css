@@ -250,3 +250,25 @@ select option{
     text-align: center;
     padding: 2em;
 }
+article.weather{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border: #2C8900 solid 2px;
+    padding: 1em;
+    align-content: flex-start;
+}
+article.weather h3{
+    padding: 1em;
+    border: .5em;
+    color: #2C8900;
+    font-size: 3em;
+    font-weight: 1000;
+    background-color: #034764;
+    }
+article.weather img{
+    align-self: center;
+}
+article.franklin{
+    display: none;
+}
