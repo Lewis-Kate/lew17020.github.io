@@ -84,4 +84,20 @@ img.shadow:hover {
         display: flex;
         flex-direction: row;
     }
+    
+     main.home{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        width: 100%;
+    }
+    
+     article.franklin, article.greenville, article.springfield{
+        display: flex;
+        flex-direction: column;
+        width: 33%;
+        border: #2C8900 solid 2px;
+        align-content: center;
+        justify-content: center;
+    }
 }

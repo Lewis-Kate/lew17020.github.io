@@ -269,6 +269,6 @@ article.weather h3{
 article.weather img{
     align-self: center;
 }
-article.franklin{
+article.franklin, article.greenville, article.springfield{
     display: none;
 }
