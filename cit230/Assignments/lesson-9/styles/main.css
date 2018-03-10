@@ -112,23 +112,25 @@ section {
 
 
 .forecast {
-    display: flex-inline;
+    display: inline-flex;
+    flex-flow: row nowrap;
+    width: 100%;
+    border: 5px solid #0777A7;
+    margin: 2%;
     font-family: 'Nanum Myeongjo', serif;
     font-size: 2em;
-    justify-content: center;
+    justify-content: space-around;
     align-items: stretch;
-    margin: 2em;
-    border: 5px solid #0777A7;
-    width: 100%;
     
 }
 #one, #two, #three, #four, #five, #six, #seven, #eight, #nine, #ten{
-    display: flex-inline;
+    display: inline-flex;
     flex-flow: row nowrap;
-    justify-content: center;
-    align-items: stretch;
-    padding: .7em;
-    
+    justify-content: space-around;
+    align-items: center;
+    padding: .1em;
+    color: #034764;
+    border: #F5FD33 solid 2px;    
 }
 #tabletitle{
     display: inline-flex;
