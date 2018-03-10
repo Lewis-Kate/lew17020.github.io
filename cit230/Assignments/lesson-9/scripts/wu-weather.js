@@ -19,5 +19,4 @@ weatherObject.onload = function(){
 	
 	document.getElementById('precip').innerHTML = weatherInfo.current_observation.precip_today_in;
 	
-	document.getElementById('today').innerHTML = weatherInfo.forecast.simpleforecast.forecastday[0,1];
 } // end of on load
