@@ -44,25 +44,23 @@
     <section>
       <h3>Weather Summary</h3>    
       <div class="highlow">
-        <p id="high">High: 90&deg;F</p>  
-        <p id="low">Low: 66&deg;F</p>  
+		  <p>Current Temperature: <span id="temp"></span>  </p>  
       </div>
       <div class="current">
-        Sunny
-        <picture>
-            <img src="images/sunny.jpeg" alt="sunny picture" width="200" height="100">
-        </picture>
+		  <p>Current Conditions: <span id="conditions"></span></p>
+        <img id="pic" src="" alt="current weather">
       </div>   
       <div class="conditions">
-        <p>Precipitation: 0&#37;</p>  
-        <p>Wind Speed: 5 mph SW</p>  
+		  <p>Precipitation: <span id="precip"></span></p>  
+		  <p>Wind Speed: <span id="wind"></span></p>  
       </div>
         <div id="outputDiv"> </div>
+		<p>Today's Forecast: <span id="today"></span></p>
     </section>
         
     <section class="forecast">
       <h3 id="tabletitle">10 Day Forecast</h3>
-      <table>
+      <table class="clearfix">
 	    <thead>
           <tr>
             <th id="one">Day 1</th>
@@ -124,6 +122,7 @@
   <script>currentDate()</script>
   <script src="scripts/windchill.js"></script>
   <script>doInputOutput()</script>
-  
+  <script src="scripts/wu-weather.js"></script>
+	
 </body>
 </html>
