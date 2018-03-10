@@ -7,5 +7,4 @@ towndata.onload = function() {
 	var Town= JSON.parse(towndata.responseText);
 	console.log(Town);
 	
-	
 }
