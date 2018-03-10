@@ -1,8 +1,11 @@
-var requestURL = "https://byui-cit230.github.io/weather/data/towndata.json";
-var request = new XMLHttpRequest();
-request.open('GET', requestURL);
-request.responseType = 'json';
-request.send();
-request.onload = function() {
-  var towndata = request.response;
+
+var towndata = new XMLHttpRequest();
+towndata.open('GET', 'https://byui-cit230.github.io/weather/data/towndata.json', true);
+towndata.send();
+
+towndata.onload = function() {
+	var Town= JSON.parse(towndata.responseText);
+	console.log(Town);
+	
+	
 }
