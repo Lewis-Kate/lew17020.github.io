@@ -112,29 +112,33 @@ section {
 
 
 .forecast {
-    display: flex;
+    display: flex-inline;
     font-family: 'Nanum Myeongjo', serif;
     font-size: 2em;
     justify-content: center;
     align-items: stretch;
     margin: 2em;
     border: 5px solid #0777A7;
+    width: 100%;
     
 }
 #one, #two, #three, #four, #five, #six, #seven, #eight, #nine, #ten{
     display: flex-inline;
     flex-flow: row nowrap;
+    justify-content: center;
     align-items: stretch;
     padding: .7em;
     
 }
 #tabletitle{
     display: inline-flex;
+    flex-flow: row nowrap;
     justify-content: center;
     align-content: center;
     font-family: 'Berkshire Swash', cursive;
     font-size: 2em;
     color: #2C8900;
+    
 }
 
 h3 {
