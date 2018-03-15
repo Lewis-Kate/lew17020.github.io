@@ -22,23 +22,26 @@ header, nav, main, footer {
 }
 
 header {
-    display: flex;
-    flex-flow: column wrap;
+    display: inline-flex;
+    flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
+	padding: 2%;
+	margin: 5%;
    }
 
 header h1 {
     font-family: 'Berkshire Swash', cursive;
-    font-size: 8em;
+    font-size: 6em;
     color: #2C8900;
 }
 header img {
     padding: 1em;
-    align-self: flex-start;
-    }
+	margin: 1em;
+      }
 
 header .subheading {
+	align-self: flex-start;
     font-family: 'Nanum Myeongjo', serif;
     color: #F5FD33;
     font-size: 4em;
@@ -46,6 +49,8 @@ header .subheading {
 
 nav {
     background-color: #034764;
+	margin-top: 30px;
+	margin-bottom: 50px;
     
 }
 nav button {
@@ -58,6 +63,7 @@ nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+	font-size: 1.5em;
        
 }
 nav ul li {
