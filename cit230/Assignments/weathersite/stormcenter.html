@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Daily Forecast</title>
+  <title>Daily Forecast - Storm Center</title>
   <meta name="author" content="Kaitlyn Lewis">
   <meta name="Storm Center" content="weather info for franklin city">
   <!-- external style references in the proper cascading order -->    
@@ -27,8 +27,8 @@
     <ul id="primaryNav" class="hide">
     	<li><a href="home.html">Home</a></li>
     	<li><a href="franklin.html">Franklin</a></li>
-    	<li><a href="#">Greenville</a></li>
-    	<li><a href="#">Springfield</a></li>
+    	<li><a href="greenville.html">Greenville</a></li>
+    	<li><a href="springfield.html">Springfield</a></li>
     	<li class="active"><a href="stormcenter.html">Storm Center</a></li>
     	<li><a href="gallery.html">Gallery</a></li>
     </ul>		
@@ -90,4 +90,11 @@
     </aside>
     <p class="footer-bar">&copy;2017 All Rights Reserved |Daily Forecast | <span id="currentdate">Current Date Placeholder</span></p>
   </footer>
+	
+  <script src="scripts/hamburger.js"></script>
+  <script src="scripts/currentdate.js"></script>
+  <script>currentDate()</script>
+  <script src="scripts/windchill.js"></script>
+  <script>doInputOutput()</script>
+  
 </html>
