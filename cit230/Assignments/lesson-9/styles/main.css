@@ -28,16 +28,22 @@ header {
     align-items: center;
 	padding: 2%;
 	margin: 5%;
+	border: #034764 solid 10px;
+	border-radius: 1em;
+	background-color: #4C9ABC;
    }
 
 header h1 {
+	align-self: flex-start;
     font-family: 'Berkshire Swash', cursive;
     font-size: 6em;
     color: #2C8900;
+	background-color: #4C9ABC;
 }
 header img {
     padding: 1em;
 	margin: 1em;
+	background-color: #4C9ABC;
       }
 
 header .subheading {
@@ -45,6 +51,7 @@ header .subheading {
     font-family: 'Nanum Myeongjo', serif;
     color: #F5FD33;
     font-size: 4em;
+	background-color: #4C9ABC;
    }
 
 nav {
@@ -132,6 +139,11 @@ h3 {
     font-family: 'Nanum Myeongjo', serif;
     font-size: 2.5em;
     color: #4C9ABC;
+	background-color: #F8FE5F;
+	border: #034764 solid .2em;
+    border-radius: .5em;
+	padding: 2px;
+	text-align: center;
 }
 
 article {
@@ -246,16 +258,18 @@ article.weather{
     flex-direction: column;
     justify-content: flex-start;
     border: #2C8900 solid 2px;
+	border-radius: 1em;
     padding: 1em;
     align-content: flex-start;
 }
 article.weather h3{
     padding: 1em;
     border: .5em;
-    color: #2C8900;
+    color: #F8FE5F;
     font-size: 3em;
     font-weight: 1000;
     background-color: #034764;
+	border-radius: 1em;
     }
 article.weather img{
     align-self: center;
