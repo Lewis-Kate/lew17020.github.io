@@ -134,7 +134,7 @@ section table{
 	margin-left: 2%;
 	width: 96%;	
 	border-collapse: collapse;
-	align-content: center;
+	text-align: center;
 	}
 		
 	 th, td {
