@@ -126,22 +126,30 @@ img.shadow:hover {
     }
 
 	.forecast {
-    display: grid;
-    grid-template-rows: repeat(3, 1fr);
-  	grid-gap: 2px;
-  	grid-auto-rows: minmax(80px, auto);
-	
+    display: flex;
+    flex-direction: column;
 	}
-	
-	
-    
-}
+
+section table{
+	margin-left: 2%;
+	width: 96%;	
+	border-collapse: collapse;
+	align-content: center;
+	}
 		
-#tabletitle{
-    display: grid;
-    font-family: 'Berkshire Swash', cursive;
-    font-size: 2em;
-    color: #2C8900;
-}
+	 th, td {
+        border: 3px solid #034764;
+		font-family: 'Nanum Myeongjo', serif;
+        color: #F5FD33;
+		 font-size: 1.4em;
+    }
+
+    td, th {
+        padding: 4px;
+    }
+
+    th, td {
+        background-color: #2985AD;
+    }
 
 }
