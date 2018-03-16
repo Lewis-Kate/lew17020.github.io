@@ -126,29 +126,19 @@ img.shadow:hover {
     }
 
 	.forecast {
-    display: inline-flex;
-    flex-flow: row nowrap;
-    width: 100%;
-    border: 5px solid #0777A7;
-    margin: 2%;
-    font-family: 'Nanum Myeongjo', serif;
-    font-size: 2em;
-    justify-content: space-around;
-    align-items: stretch;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+  	grid-gap: 2px;
+  	grid-auto-rows: minmax(80px, auto);
+	
 	}
 	
-	#one, #two, #three, #four, #five, #six, #seven, #eight, #nine, #ten{
-    display: inline-flex;
-    flex-flow: row nowrap;
-    align-items: stretch;
-    padding: .7em;
+	
     
 }
 		
 #tabletitle{
-    display: inline-flex;
-    justify-content: center;
-    align-content: center;
+    display: grid;
     font-family: 'Berkshire Swash', cursive;
     font-size: 2em;
     color: #2C8900;

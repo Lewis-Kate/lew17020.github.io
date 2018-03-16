@@ -291,3 +291,10 @@ article.franklin, article.greenville, article.springfield{
 	font-weight: 800;
 	font-family: 'Nanum Myeongjo', serif;
 }
+
+#forecast1, #precip1, #wind1, #today1, #temp1, #conditions1{
+	color:#F3FD00;
+	font-size: 1em;
+	font-weight: 800;
+	font-family: 'Nanum Myeongjo', serif;
+}
