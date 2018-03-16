@@ -1,0 +1,149 @@
+@media only screen and (min-width: 37.5em) {
+  /* Only CSS rules that need to be changed to meet the layout needs from small to medium go in here */
+ 
+ header {
+    display: inline-flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+   }
+
+header h1 {
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 6em;
+    color: #2C8900;
+}
+header img {
+    padding: 1em;
+	margin: 1em;
+      }
+
+header .subheading {
+	align-self: flex-start;
+    font-family: 'Nanum Myeongjo', serif;
+    color: #F5FD33;
+    font-size: 4em;
+	margin-left: -510px;
+	margin-top: 200px;
+   }      
+  nav button { 
+      display:none; 
+    }  /* hamburger button does not need to be shown */
+  
+  nav ul.hide {
+        display: block;
+    }    
+    
+  nav ul {
+        margin-left: 2%;
+    }
+    
+  nav ul li{
+        float: left;
+    }
+    
+  nav ul li a {
+        border: none;
+        border-right: 1px solid rgba(0, 0, 0, 0.3);
+        padding: .8rem 1rem;
+    }
+
+  section.forecast { 
+      display: inline-grid; 
+    }  /* show the 10-day forecast with the medium view and up */
+  
+  article p.town-article img { 
+      width: 62.666%; float:right; 
+    }  /* responsive images */
+
+    ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    }
+    
+    li {
+        display: inline;
+        float: left;
+    }
+    
+    .forecast {
+    display: inline-table;   
+    }
+    
+    .gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 1em;
+    grid-row-gap: 1em;
+   }
+    
+    article.weather{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        width: 95%;
+        height: 50%;
+    }
+    
+    article.weather h3{
+    align-self: flex-start;
+    color: #2C8900;
+    font-size: 3em;
+    font-weight: 1000;
+    background-color: #034764;
+    }  
+    
+    article.weather p{
+        padding: 1em;
+        margin: 1em;
+        width: 50%;
+    }
+    
+    
+    article.franklin, article.greenville, article.springfield{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        border: #2C8900 solid 2px;
+        align-content: stretch;
+        justify-content: flex-start;
+        margin: 1em;
+        padding: 1em;
+    }
+    article.franklin img, article.greenville img, article.springfield img{
+        padding: 1em;
+    }
+.forecast {
+    display: inline-flex;
+    flex-flow: row nowrap;
+    width: 100%;
+    border: 5px solid #0777A7;
+    margin: 2%;
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 2em;
+    justify-content: space-around;
+    align-items: stretch;
+	}
+
+	#one, #two, #three, #four, #five, #six, #seven, #eight, #nine, #ten{
+    display: inline-flex;
+    flex-flow: row nowrap;
+    align-items: stretch;
+    padding: .7em;
+    
+}
+#tabletitle{
+    display: inline-flex;
+    justify-content: center;
+    align-content: center;
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 2em;
+    color: #2C8900;
+}
+
+   }
+
+

@@ -1,0 +1,157 @@
+@media only screen and (min-width: 64em) {
+  /* Only CSS rules that need to be changed to meet the layout needs from medium to large/wide go in here */
+  header {
+    display: inline-flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+   }
+
+header h1 {
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 6em;
+    color: #2C8900;
+}
+header img {
+    padding: 1em;
+	margin: 1em;
+      }
+
+header .subheading {
+	align-self: flex-start;
+    font-family: 'Nanum Myeongjo', serif;
+    color: #F5FD33;
+    font-size: 4em;
+	margin-left: -510px;
+	margin-top: 200px;
+   }
+      nav button { 
+      display:none; 
+    }  /* hamburger button does not need to be shown */
+  
+  nav ul.hide {
+        display: block;
+    }    
+    
+  nav ul {
+        margin-left: 2%;
+    }
+    
+  nav ul li{
+        float: left;
+    }
+    
+  nav ul li a {
+        border: none;
+        border-right: 1px solid rgba(0, 0, 0, 0.3);
+        padding: .8rem 1rem;
+    }
+    
+  article p.town-article img { 
+      width: 29.333%; 
+    }
+    
+   ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    }
+    
+    li {
+        display: inline;
+        float: left;
+    }
+    
+    .forecast {
+    text-align: left;   
+    }
+    
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 2em;
+    grid-row-gap: 2em;
+        
+}
+img.shadow:hover {
+        box-shadow: 20px 20px 30px #034764;
+    }
+    article.weather{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        margin: 2em;
+        width: 95%;
+    }
+    
+    article.weather h3{
+    align-self: flex-start;
+    padding: 1em;
+    border: .5em;
+    color: #2C8900;
+    font-size: 3em;
+    font-weight: 1000;
+    background-color: #034764;
+    }  
+    
+    article.weather p{
+        padding: 1em;
+        margin: 1em;
+        align-self: flex-start;
+    }
+   article.weather img {
+       margin-left: 4em;
+    }
+    
+     article.franklin{
+        display: flex;
+        flex-direction: row;
+    }
+    
+     main.home{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        width: 100%;
+    }
+    
+     article.franklin, article.greenville, article.springfield{
+        display: flex;
+        flex-direction: column;
+        width: 33%;
+        border: #2C8900 solid 2px;
+        align-content: center;
+        justify-content: center;
+    }
+
+	.forecast {
+    display: inline-flex;
+    flex-flow: row nowrap;
+    width: 100%;
+    border: 5px solid #0777A7;
+    margin: 2%;
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 2em;
+    justify-content: space-around;
+    align-items: stretch;
+	}
+	
+	#one, #two, #three, #four, #five, #six, #seven, #eight, #nine, #ten{
+    display: inline-flex;
+    flex-flow: row nowrap;
+    align-items: stretch;
+    padding: .7em;
+    
+}
+		
+#tabletitle{
+    display: inline-flex;
+    justify-content: center;
+    align-content: center;
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 2em;
+    color: #2C8900;
+}
+
+}
