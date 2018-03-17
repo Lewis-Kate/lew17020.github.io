@@ -78,7 +78,7 @@
             <label><span><input type="submit" value="Click to Submit" class="submit"></span></label></fieldset>
         
     </form>
-    </body>
+
     
      <footer>
     <aside>
@@ -96,5 +96,24 @@
   <script>currentDate()</script>
   <script src="scripts/windchill.js"></script>
   <script>doInputOutput()</script>
-  
+ 
+</body>
+	    <script>
+		var urlString = document.location.href;
+		var urlArray = urlString.split('/');
+		var pageHREF = urlArray[urlArray.length-1];
+		
+		if (pageHREF !=="") {
+			var menu = document.querySelectorAll('ul#primaryNav li a');
+			var i;
+			
+			for(i=0; i<menu.lenth; i++) {
+				var currentURL=(menu[i].getAttribute('href'));
+				menu[i].parentNode.className="";
+				if (currentUrl===pageHREF) {
+					menu[i].parentNode.className="active";
+				}
+			}
+		}
+	</script>
 </html>
