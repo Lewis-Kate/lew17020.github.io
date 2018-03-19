@@ -116,14 +116,16 @@ img.shadow:hover {
         width: 100%;
     }
     
-     article.franklin, article.greenville, article.springfield{
+     section.cities {
         display: flex;
-        flex-direction: column;
-        width: 33%;
-        border: #2C8900 solid 2px;
-        align-content: center;
-        justify-content: center;
-    }
+        flex-flow: row nowrap;
+        justify-content: space-around;
+        align-items: stretch;
+		font-family: 'Nanum Myeongjo', serif;
+		color: #F5FD33;
+		border: solid #2C8900 2px;
+		margin: 2%;
+	}
 
 	.forecast {
     display: inline-flex;

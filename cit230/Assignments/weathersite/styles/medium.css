@@ -113,9 +113,19 @@ header .subheading {
         margin: 1em;
         padding: 1em;
     }
- article.franklin img, article.greenville img, article.springfield img{
-        padding: 1em;
-    }
+	
+	section.cities {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-around;
+        align-items: stretch;
+		font-family: 'Nanum Myeongjo', serif;
+		color: #F5FD33;
+		border: solid #2C8900 2px;
+		margin: 2%;
+	}
+	
+ 
 .forecast {
     display: flex;
     flex-direction: column;

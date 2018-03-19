@@ -103,19 +103,17 @@ header .subheading {
     }
     
     
-    article.franklin, article.greenville, article.springfield{
+   section.cities {
         display: flex;
-        flex-direction: row;
-        width: 100%;
-        border: #2C8900 solid 2px;
-        align-content: stretch;
-        justify-content: flex-start;
-        margin: 1em;
-        padding: 1em;
-    }
-    article.franklin img, article.greenville img, article.springfield img{
-        padding: 1em;
-    }
+        flex-flow: row nowrap;
+        justify-content: space-around;
+        align-items: stretch;
+		font-family: 'Nanum Myeongjo', serif;
+		color: #F5FD33;
+		border: solid #2C8900 2px;
+		margin: 2%;
+	}
+	
 .forecast {
     display: inline-flex;
     flex-flow: row nowrap;
