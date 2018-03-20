@@ -21,5 +21,4 @@ weatherObject.onload = function(){
 	
 	document.getElementById('today').innerHTML = weatherInfo.forecast.txt_forecast.forecastday["0"].fcttext;
 	
-}
-	
+} // end of on load

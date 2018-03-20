@@ -126,34 +126,32 @@ img.shadow:hover {
 		border: solid #2C8900 2px;
 		margin: 2%;
 	}
-
-	.forecast {
-    display: inline-flex;
-    flex-flow: row nowrap;
-    width: 100%;
-    border: 5px solid #0777A7;
-    margin: 2%;
-    font-family: 'Nanum Myeongjo', serif;
-    font-size: 2em;
-    justify-content: space-around;
-    align-items: stretch;
-	}
 	
-	#one, #two, #three, #four, #five, #six, #seven, #eight, #nine, #ten{
-    display: inline-flex;
-    flex-flow: row nowrap;
-    align-items: stretch;
-    padding: .7em;
-    
-}
+	.forecast {
+    display: flex;
+    flex-direction: column;
+	}
+
+section table{
+	margin-left: 2%;
+	width: 96%;	
+	border-collapse: collapse;
+	text-align: center;
+	}
 		
-#tabletitle{
-    display: inline-flex;
-    justify-content: center;
-    align-content: center;
-    font-family: 'Berkshire Swash', cursive;
-    font-size: 2em;
-    color: #2C8900;
-}
+	 th, td {
+        border: 3px solid #034764;
+		font-family: 'Nanum Myeongjo', serif;
+        color: #F5FD33;
+		 font-size: 1.4em;
+    }
+
+    td, th {
+        padding: 4px;
+    }
+
+    th, td {
+        background-color: #2985AD;
+    }
 
 }

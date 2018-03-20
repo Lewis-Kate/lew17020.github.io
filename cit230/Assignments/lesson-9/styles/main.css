@@ -15,7 +15,7 @@ body {
 }
 
 header, nav, main, footer { 
-    max-width: 100%;
+    max-width: 98%;
     
     /* the comma means apply the following CSS declarations to all of the listed elements */
   /* Declare the maximum width and other main element rules to limit the stretch on wide views */
@@ -38,7 +38,7 @@ header h1 {
     font-family: 'Berkshire Swash', cursive;
     font-size: 6em;
     color: #2C8900;
-	background-color: #4C9ABC;
+	background-color: transparent;
 }
 header img {
     padding: 1em;
@@ -51,7 +51,7 @@ header .subheading {
     font-family: 'Nanum Myeongjo', serif;
     color: #F5FD33;
     font-size: 4em;
-	background-color: #4C9ABC;
+	background-color: transparent;
    }
 
 nav {
@@ -128,14 +128,13 @@ section {
     display: none;
     
 }
-#one, #two, #three, #four, #five, #six, #seven, #eight, #nine, #ten{
-    display: none;    
-}
+
 #tabletitle{
     display: none;
 }
 
 h3 {
+	margin-left: 2%;
     font-family: 'Nanum Myeongjo', serif;
     font-size: 2.5em;
     color: #4C9ABC;
@@ -144,12 +143,12 @@ h3 {
     border-radius: .5em;
 	padding: 2px;
 	text-align: center;
+	max-width: 98%;
 }
 
 article {
-    margin: 2em;
-    padding: 0em;
-    width: 75%;
+	margin-left: 2%;
+    width: 98%;
 }
 
 article p.town-article img {  /* This structure refers to img elements that are the posterity of paragraph elements within artcle elements */
@@ -258,7 +257,6 @@ article.weather{
     flex-direction: column;
     justify-content: flex-start;
     border: #2C8900 solid 2px;
-	border-radius: 1em;
     padding: 1em;
     align-content: flex-start;
 }
@@ -286,6 +284,20 @@ article.franklin, article.greenville, article.springfield{
 }
 
 #forecast, #precip, #wind, #today, #temp, #conditions, #outputDiv{
+	color:#F3FD00;
+	font-size: 1em;
+	font-weight: 800;
+	font-family: 'Nanum Myeongjo', serif;
+}
+
+#forecast1, #precip1, #wind1, #today1, #temp1, #conditions1{
+	color:#F3FD00;
+	font-size: 1em;
+	font-weight: 800;
+	font-family: 'Nanum Myeongjo', serif;
+}
+
+#forecast2, #precip2, #wind2, #today2, #temp2, #conditions2{
 	color:#F3FD00;
 	font-size: 1em;
 	font-weight: 800;
