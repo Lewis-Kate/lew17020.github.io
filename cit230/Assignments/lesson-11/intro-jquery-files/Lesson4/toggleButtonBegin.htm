@@ -7,8 +7,11 @@
 	<link rel="stylesheet" href="css/toggleBtn.css">
 	<script src="js/jquery-2.2.1.min.js"></script>
 	<script>
-		$(function () {
+		$(function(){
 			// jQuery Code goes here
+			$('.toggleBtn').click( function(){
+				$(this).toggleClass("toggleOn");
+			});
 
 		})
 	</script>

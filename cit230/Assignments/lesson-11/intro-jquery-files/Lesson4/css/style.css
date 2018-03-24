@@ -27,7 +27,7 @@ body {
 	box-shadow: 1px 1px 20px rgba(0,0,0,0.45);
 }
 
-.header {
+head {
 	position:relative;
 	width:960px;
 	height:100px;
@@ -44,37 +44,45 @@ body {
 	opacity:1.0;
 }
 
-.navbar {
-	position:relative;
-	width:710px;
-	height:100px;
-	float:left;
-	background:rgba(207, 251, 203, 0.55);
+header nav {
+    background-color: #034764;
+	    
 }
 
-.navbar > .navigation {
-	position:relative;
-	top:35px;
-	left:20px;
-	margin:0px;
-	padding:0px;
-	list-style:none;
+header nav ul {
+	display: inline-flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+	align-content: stretch;
+    list-style-type: none;
+    margin: 2%;
+    padding: 0;
+	font-size: .8em;
+       
+}
+header nav ul li {
+	justify-content: space-around;
+    
 }
 
-.navigation li {
-	width:100px;
-	text-align:center;
-	padding:6px;
-	font-size:15px;
-	float:left;
+header nav ul li a {
+	flex-wrap: nowrap;
+    padding: 2%;
+	margin: 2%;
+    text-decoration: none;
+    background-color: #0777A7; 
+    color: #F5FD33;
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
 }
 
-.navigation a {
-	color:#000;
-	text-decoration:none;
-	font-family: 'Raleway', sans-serif;
-	text-shadow:0px 0px 1px rgba(0,0,0,0.3);
+header nav ul li.active a {
+    background-color: #67E12D;
 }
+
+header nav ul li a:hover {
+    color: #67E12D;
+}
+
 
 .content {
 	position:relative;
@@ -257,25 +265,38 @@ body {
 	font-family: 'Raleway', sans-serif;
 }
 
-.footer {
-	position:relative;
-	height:30px;
+footer {
 	background:rgba(0, 167, 255, 0.86);
+	position: relative;
 }
 
-.footer h5 {
-	position: absolute;
-	top: 8px;
-	left: 7px;
+footer h5 {
 	font-family: 'Raleway', sans-serif;
 	font-size: 12px;
 	color: rgba(0,0,0,0.8);
 }
 
-.footer a {
+footer a {
 	text-decoration: none;
 	font-weight: normal;
 	color:inherit;
+}
+
+footer nav ul{
+	display: inline-flex;
+	flex-flow: row nowrap;
+	font: 'Raleway', sans-serif;
+	font-size: 14px; 
+	color: beige;
+	background:rgba(0, 167, 255, 0.86);
+}
+
+footer nav ul li{
+	border: aquamarine solid 2px;
+	margin: .5em;
+	padding: .4em;
+	background-color: darkcyan;
+	list-style-type: none;
 }
 
 
