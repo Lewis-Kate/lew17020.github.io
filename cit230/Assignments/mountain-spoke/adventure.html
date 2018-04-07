@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en-us">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The Mountain Spoke</title>
+  <meta name="author" content="Kaitlyn Lewis">
+  <meta name="The Mountain Spoke" content="mountain biking in Bozeman, Montana">
+  <link href="styles/normalize.css" rel="stylesheet"> 
+   <link href="styles/main.css" rel="stylesheet">    
+  <link href="styles/medium.css" rel="stylesheet">  
+  <link href="styles/large.css" rel="stylesheet"> 
+ <link href="https://fonts.googleapis.com/css?family=Dosis|Shadows+Into+Light" rel="stylesheet">
+  <script src="scripts/jquery-2.2.1.min.js"></script>
+	
+	<script>
+	$(function(){
+		$('.dropdownMenu > li').hover(function(){
+		$(this).children("ul").slideToggle(200);
+	})
+
+	})
+	</script>
+</head>
+	
+<body>
+	<header>
+			<img src="images/logo.png" alt="mountain spoke logo" width="600" height="250">
+	
+	<nav>
+		<ul class="dropdownMenu" id="primaryNav" class="hide">
+			<li>Menu
+				<ul>
+					<li><a href="home.html">Home</a></li>
+					<li class="active"><a href="adventure.html">Adventure Tours</a></li>
+					<li><a href="events.html">Events</a></li>
+					<li><a href="sales.html">Sales</a></li>
+					<li><a href="service.html">Services</a></li>
+					<li><a href="contact-us.html">Contact Us</a></li>
+				</ul>
+			</li>
+		</ul>
+	</nav>
+</header>	
+
+	<footer>
+	<p>
+		The Mountain Spoke<br>
+		3950 Valley Commons Drive<br>
+		Bozeman, Montana 59718<br>
+	</p>
+	<a href="reference.html">References</a>
+</footer>
+	
+</body>
+	
+	<script>
+		var urlString = document.location.href;
+		var urlArray = urlString.split('/');
+		var pageHREF = urlArray[urlArray.length-1];
+		
+		if (pageHREF !=="") {
+			var menu = document.querySelectorAll('ul#primaryNav li a');
+			var i;
+			
+			for(i=0; i<menu.lenth; i++) {
+				var currentURL=(menu[i].getAttribute('href'));
+				menu[i].parentNode.className="";
+				if (currentUrl===pageHREF) {
+					menu[i].parentNode.className="active";
+				}
+			}
+		}
+	</script>
+	
+</html>
