@@ -42,5 +42,42 @@ div img:hover {
 .item5:hover{
 	box-shadow: 20px 20px 30px #096D59;
 	}
+	
+.maintour{
+	display: inline-flex;
+	flex-flow: row nowrap;
+	justify-content: space-around;
+	align-content: center;
+	padding: 2%;
+}
+
+.maintour p{
+	width: 80%;
+	text-align: center;
+}
+
+.tour, .tour2{
+	margin: 3%;
+}
+
+.advent{
+	width: 100%;
+	padding-top: 2%;
+}
+	
+footer{
+	display: flex;
+	flex-flow: row-reverse nowrap;
+	justify-content: space-around;
+	align-content: center;
+	font-family: 'Dosis', sans-serif;
+	color: #FFFFFF;
+	font-size: 1em;
+	padding: 2%;
+	border-top:5px solid #096D59;
+	text-shadow: 1px 2px 2px #0E0E0E;
+}
+
+
 
 }

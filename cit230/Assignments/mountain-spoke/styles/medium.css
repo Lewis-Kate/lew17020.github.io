@@ -42,4 +42,17 @@ div img:hover {
 .item5:hover{
 	box-shadow: 20px 20px 30px #096D59;
 	}
+	
+footer{
+	display: flex;
+	flex-flow: row-reverse nowrap;
+	justify-content: space-around;
+	align-content: center;
+	font-family: 'Dosis', sans-serif;
+	color: #FFFFFF;
+	font-size: 1em;
+	padding: 2%;
+	border-top:5px solid #096D59;
+	text-shadow: 1px 2px 2px #0E0E0E;
+}
 }

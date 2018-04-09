@@ -67,8 +67,9 @@ nav ul.hide{
 
 footer{
 	display: flex;
-	flex-flow: row-reverse nowrap;
+	flex-flow: column-reverse nowrap;
 	justify-content: space-around;
+	align-content: center;
 	font-family: 'Dosis', sans-serif;
 	color: #FFFFFF;
 	font-size: 1em;
@@ -76,6 +77,7 @@ footer{
 	border-top:5px solid #096D59;
 	text-shadow: 1px 2px 2px #0E0E0E;
 }
+
 
 footer a{
 	font-family: 'Dosis', sans-serif;
@@ -90,6 +92,13 @@ footer a{
 	margin: 1px;
 	border: 2px solid #575757;
 	color: #ffffff;
+}
+
+footer button{
+	background-color: transparent;
+	padding: 0;
+	margin: 0;
+	border: 0;
 }
 
 .gallery {
@@ -111,6 +120,23 @@ h2{
 	font-family: 'Shadows Into Light', cursive;
 	font-size: 5em;
 	color: #ffffff;
+	text-shadow: 1px 2px 2px #717171;
+	text-align: center;
+}
+
+h3{
+	font-family: 'Shadows Into Light', cursive;
+	font-size: 3em;
+	color: #056D59;
+	text-shadow: 1px 2px 2px #00A17E;
+	margin-top: 0;
+	padding-top: 0;
+}
+
+.tour p, .tour2 p{
+	font-family: 'Dosis', sans-serif;
+	font-size: 1em;
+	color: #0E0E0E;
 	text-shadow: 1px 2px 2px #717171;
 	text-align: center;
 }
@@ -144,3 +170,25 @@ div img:hover {
 	box-shadow: 20px 20px 30px #096D59;
 	}
 	
+.maintour{
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: space-around;
+	align-content: center;
+	padding: 2%;
+}
+
+.maintour p{
+	width: 90%;
+	text-align: center;
+}
+
+.tour, .tour2{
+	margin: 3%;
+}
+
+.advent{
+	width: 100%;
+	padding-top: 2%;
+}
+
