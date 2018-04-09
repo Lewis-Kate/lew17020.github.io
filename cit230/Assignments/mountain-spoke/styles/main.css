@@ -74,6 +74,7 @@ footer{
 	font-size: 1em;
 	padding: 2%;
 	border-top:5px solid #096D59;
+	text-shadow: 1px 2px 2px #0E0E0E;
 }
 
 footer a{
@@ -90,3 +91,28 @@ footer a{
 	border: 2px solid #575757;
 	color: #ffffff;
 }
+
+.gallery {
+	display: flex;
+	flex-flow: column-reverse nowrap;
+	align-content: center;
+	justify-content: center;
+	padding: 2%;
+  }
+
+h2{
+	font-family: 'Shadows Into Light', cursive;
+	font-size: 5em;
+	color: #ffffff;
+	text-shadow: 1px 2px 2px #717171;
+}
+
+.item5 p{
+	font-family: 'Dosis', sans-serif;
+	font-size: 1.2em;
+	color: #00A17E;
+	text-shadow: 0px 1px 1px #00A17E;
+}
+}
+
+	
