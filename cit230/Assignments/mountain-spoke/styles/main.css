@@ -100,19 +100,47 @@ footer a{
 	padding: 2%;
   }
 
+.item5{
+	border: 5px solid #717171;
+	padding: 2%;
+	background-color: #0E0E0E;
+	margin-bottom: 2%;
+	}
+
 h2{
 	font-family: 'Shadows Into Light', cursive;
 	font-size: 5em;
 	color: #ffffff;
 	text-shadow: 1px 2px 2px #717171;
+	text-align: center;
 }
 
 .item5 p{
 	font-family: 'Dosis', sans-serif;
 	font-size: 1.2em;
 	color: #00A17E;
-	text-shadow: 0px 1px 1px #00A17E;
-}
+	}
+
+.map{
+	display: flex;
+	flex-flow: column nowrap;
+	align-items: center;
+	justify-items: center;
+	padding: 2%;
+	align-content: space-around;
 }
 
+.map h2{
+	font-size: 8em;
+	padding: 0;
+	margin: 0;
+}
+
+div img:hover {
+        box-shadow: 20px 20px 30px #0E0E0E;
+    }
+	
+.item5:hover{
+	box-shadow: 20px 20px 30px #096D59;
+	}
 	
