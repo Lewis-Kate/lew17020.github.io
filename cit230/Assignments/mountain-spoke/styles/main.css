@@ -200,7 +200,7 @@ div img:hover {
 }
 
 form#contactus {
-	width: 35%;
+	width: 45%;
 	padding: .8em;
     font-family: 'Dosis', sans-serif;
     font-weight: bold;
@@ -238,6 +238,7 @@ label span{
     color: #00A17E;
 }
 input{
+	width: 90%;
     display: block;
     background-color: #717171;
     border: #096D59 solid .2em;
@@ -250,9 +251,8 @@ input{
     border: #717171 solid .5em;
     border-radius: .1em;
     background-color: #00A17E;
-    font-size: 2em;
-	align-content: center;
-}
+    font-size: 1.5em;
+	}
 textarea, select{
     background-color: #0E0E0E;
     font-family: 'Dosis', sans-serif;
