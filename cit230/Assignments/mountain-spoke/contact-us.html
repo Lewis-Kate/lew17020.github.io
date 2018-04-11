@@ -39,7 +39,31 @@
 <main class="map">
 <h2>Visit Us</h2>
 	
+	<div id="map">
 	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5575.816200717612!2d-111.08863610800644!3d45.67274518169491!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5345459ab72cb6df%3A0xbb98968f9648ea88!2s3950+Valley+Commons+Dr%2C+Bozeman%2C+MT+59718!5e0!3m2!1sen!2sus!4v1523243530293" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+	</div>
+	
+	<h2>Contact Us</h2>
+	
+    <form id="contactus">
+        <fieldset>
+            <legend>Personal Information</legend>
+                <label><span>Full Name:<input type="text" name="fullname"  pattern="[A-z\s]{5,}" required></span></label>
+                <label><span>Email:<input name="email" type="email" placeholder="janedoe@gmail.com"></span></label>
+                <label><span>Telephone:<input name="phone" type="tel" pattern="[0-9]{10,99}" required></span></label>
+                <label><span>Zipcode:<input name="zip" type="number" pattern="[11524]{5}" required></span></label>
+        </fieldset>
+		
+		<fieldset>
+            <legend>Comments</legend>
+                <label><span id="comment">
+                    <textarea  id="comment" name="comments" rows="10" cols="30"></textarea>
+                    </span></label>
+        </fieldset>
+        
+        <fieldset>
+            <label><span><input type="submit" value="Click to Submit" class="submit"></span></label></fieldset>
+	</form>
 </main>
 
 
@@ -55,9 +79,6 @@
 	<a href="reference.html">References</a>
 </footer>
 
-	
-</body>
-	
 	<script>
 		var urlString = document.location.href;
 		var urlArray = urlString.split('/');
@@ -87,5 +108,8 @@
 
 	})
 	</script>
+	
+</body>
+	
 	
 </html>
