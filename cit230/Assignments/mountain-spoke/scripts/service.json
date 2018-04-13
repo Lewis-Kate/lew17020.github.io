@@ -1,0 +1,26 @@
+{
+	"service" : [
+	{
+		"type": "Tune-Up" : [
+			"Basic Tune-Up: $39.99",
+			"Premium Tune-Up: $69.99",
+			"Brake System Tune-Up: $24.99"
+		]
+	},
+	{
+		"type": "Wheels" : [
+			"Install Inner Tube: $6.99",
+			"Repair Inner Tube: $8.99",
+			"Install 1 Spoke: $5.99"
+		]
+	},
+	{
+		"type": "Brakes" : [
+			"Install Rotor: $7.99",
+			"Install Brake Levers: $12.99",
+			"Install Rim Brake Set: $12.99"
+		]
+	}
+		
+	]
+}
