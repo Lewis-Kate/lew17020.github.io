@@ -12,13 +12,11 @@
   <link href="styles/large.css" rel="stylesheet"> 
  <link href="https://fonts.googleapis.com/css?family=Dosis|Shadows+Into+Light" rel="stylesheet">
  
-	
-	
 </head>
 	
 <body>
 	<header>
-			<img src="images/logo.png" srcset="images/logo.png 1x, images/logo.png 2x, images/logo-small.png 3x">
+			<img src="images/logo.png" alt="logo" srcset="images/logo.png 1x, images/logo.png 2x, images/logo-small.png 3x">
 	
 	<nav>
 		<ul class="dropdownMenu" id="primaryNav" class="hide">
@@ -34,7 +32,30 @@
 			</li>
 		</ul>
 	</nav>
-</header>	
+</header>
+	
+	<body>
+		<button class="accordion">Giant Trance 2</button>
+<div class="panel">
+	<img src="images/giant-trance.jpg" alt="giant trance image" srcset="images/giant-trance-large.jpg 1x, images/giant-trance-2 2x, image/giant-trance-3.jpg 3x">
+	<h3>&#36;2,899</h3>
+  <p>This is a trail bike that thrives in the most challenging conditions. The frameset is engineered with a lightweight yet super strong and stiff ALUXX SL aluminum frame with updated Maestro rear suspension featuring a trunnion-mount shock and Advanced Forged Composite rocker arm. The result: 140mm of smooth, active rear travel to conquer the roughest trails. Frame geometry is designed around its 27.5 wheels, which deliver both quickness and control on rugged terrain. It also comes with a 150mm suspension fork for even more confidence, making it perfect for technical terrain.</p>
+</div>
+
+<button class="accordion">Haibike</button>
+<div class="panel">
+	<img src="images/haibike.jpg" alt="haibike image" srcset="images/haibike-large.jpg 1x, images/haibike-2.jpg 2x, images/ haibike-3.jpg 3x">
+	<h3>&#36;3150</h3>
+  <p>The SDURO AllMtn bikes are equipped with the powerful and reliable Yamaha PW drivetrain which feels pure and natural while riding. These robust aluminum full suspension frames have 150mm of travel and a well-balanced tour geometry, making these bikes capable of riding on a variety of terrain. The SDURO AllMtns are great all-rounders.</p>
+</div>
+
+<button class="accordion">Momentum</button>
+<div class="panel">
+	<img src="images/momentum.jpg" alt="momentum image" srcset="images/momentum-large.jpg 1x, images/momentum-2.jpg 2x, images/momentum-3.jpg 3x">
+	<h3>&#36;600</h3>
+  <p>Unstoppable Style. One look at those super fat tires and you can’t help but smile. Roll down rough city streets, through the park, even on the beach. Do it all on this fun-loving fattie.</p>
+</div>
+	</body>
 
 	<footer>
 	<p>
@@ -43,7 +64,7 @@
 		Bozeman, Montana 59718<br>
 		(888)-555-5555
 	</p>
-		<button type="button"> <a href="contact-us.html"> Contact Us </a></button>
+	<a href="contact-us.html"> Contact Us </a>
 	<a href="reference.html">References</a>
 </footer>
 	
@@ -77,6 +98,22 @@
 	})
 	</script>
 	
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+            panel.style.display = "none";
+        } else {
+            panel.style.display = "block";
+        }
+    });
+}
+	</script>
 </body>
 	
 	

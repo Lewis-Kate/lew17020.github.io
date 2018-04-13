@@ -160,7 +160,7 @@ h3{
 	}
 
 .map h2{
-	font-size: 8em;
+	font-size: 6em;
 	padding: 0;
 	margin: 0;
 }
@@ -318,4 +318,32 @@ textarea, select{
 .thanks{
 	margin: 5%;
 	font-size: .8em;
+}
+
+.accordion {
+    background-color: #0E0E0E;
+    color: #096D59;
+    padding: 1.5%;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 1.2em;
+    transition: 0.4s;
+	font-family: 'Dosis', sans-serif;
+}
+
+
+.active, .accordion:hover {
+    background-color: #ffffff; 
+}
+
+.panel {
+	display: flex;
+	flex-flow: row nowrap;
+    padding: 0 2%;
+    display: none;
+    background-color: #717171;
+	font-family: 'Dosis', sans-serif;
+    overflow: hidden;
 }
