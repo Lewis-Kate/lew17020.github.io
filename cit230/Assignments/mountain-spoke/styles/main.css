@@ -166,7 +166,9 @@ h3{
 }
 
 #map{
-	padding-bottom: 10em;
+	align-items: center;
+	padding-bottom: 4em;
+	padding-top: 1.5em;
 }
 
 div img:hover {
